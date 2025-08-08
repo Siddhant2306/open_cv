@@ -1,0 +1,47 @@
+# === Build directories ===
+build/
+Build/
+out/
+bin/
+obj/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Visual Studio generated files ===
+*.sln
+*.vcxproj*
+*.user
+*.filters
+*.log
+*.tlog
+*.opensdf
+*.sdf
+*.db
+*.ipch
+*.pdb
+
+# === Compiled binaries ===
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.a
+*.lib
+
+# === C++ specific ===
+*.o
+*.obj
+*.gch
+
+# === Logs and temp ===
+*.log
+*.tmp
+
+# === VS Code ===
+.vscode/
+
+# === OpenCV generated cache or builds (if applicable) ===
+opencv_build/
