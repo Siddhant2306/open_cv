@@ -40,9 +40,3 @@ If CMake can’t find OpenCV libs/headers, update `OpenCV_PATH` to your OpenCV b
 Run the produced executable; a window will open showing the mirrored webcam feed.
 
 - Press `Esc` to exit.
-
-## Notes / TODO
-
-- `draw()` currently uses `(x, x)` instead of `(x, y)` when drawing circles — fix if you want correct drawing.
-- Add a simple UI to tune HSV thresholds (trackbars).
-- Consider persisting `newPoints` to allow drawing trails.
